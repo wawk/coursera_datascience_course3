@@ -1,4 +1,4 @@
-CodeBook for Assignment: getdata-015 - Coursera Data Scientist Specialization - course 3 "Getting and Cleaning Data" Course Project Date 06/21/2015
+CodeBook for Assignment: getdata-015 - Coursera Data Scientist Specialization - course 3 "Getting and Cleaning Data" Course Project Date 12/27/2015
 
 The following details the variables assigned and used with each data frame or data object used in the execution of this project
 
@@ -14,7 +14,7 @@ activity - the activies are either "WALKING","SITTING","STANDING","WAKING_DOWNST
 x_measure - the variable names for each sensor had a axial component with (x,y,z) being listed individually for each. I made this a column and the actual sensor value a value in the sensor column. That is for each row in the tidy data set, a sensor will be associated with the x,y,z columns for that sense in the main data set. The average was take for each of these values broken down by subject and activity, and this is the value in this row for each measurement. y_measure - The same that is listed for the x_measure can be applied to this variable, only for the y component of the sensor z_measure - The same that is listed for the x_measure can be applied to this variable, only for the z component of the sensor
 
 
-meanDT stdDT Data Sets
+meanDF stdDF Data Sets
 
 First the only difference in these data sets is that one is for the mean and the other for the std deviation. They were devided up based on the names of the variables:
 
